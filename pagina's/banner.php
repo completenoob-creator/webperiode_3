@@ -1,0 +1,1 @@
+<img src="./img/Zwembaden.jpg" class="img-fluid" id="banner">
