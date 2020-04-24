@@ -3,9 +3,9 @@
         <div class="col-12 col-sm-6">
             <form action="./index.php?content=regestratie_script" method="post">
                 <div class="form-group">
-                    <label for="exampleInputEmail">Vul uw E-mail in:</label>
-                    <input name="email" type="email" class="form-control" id="exampjeInputEmail" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">Uw Privacy is bijna gegarandeerd</small>
+                    <label for="InputEmail">Vul uw E-mail in:</label>
+                    <input name="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">Uw Privacy is niet helemaal gegarandeerd</small>
                 </div>
             <button type="submit" class="btn btn-warning btn-lg btn-block">Registreer</button>
 
@@ -14,7 +14,8 @@
 
         </div>
         <div class="col-12 col-sm-6">
-            <img src="./img/kipO.png" alt="" class="img-fluid">
+            <img src="./img/zwemmer.jpg" alt="" class="img-fluid">
     </div>
     </div>
 </div>
+

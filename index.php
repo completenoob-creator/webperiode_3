@@ -19,22 +19,22 @@
     <main>
         <div class="row">
             <div class="col-12">
-                <?php include("./pagina's/banner.php"); ?>
+                <?php include("./pagina/banner.php"); ?>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <?php include("./pagina's/navaigation.php"); ?>
+                <?php include("./pagina/navaigation.php"); ?>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <?php include("./pagina's/content.php"); ?>
+                <?php include("./pagina/content.php"); ?>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <?php include("./pagina's/footer.php"); ?>
+        <div class="row fixed-bottom">
+            <div class="col-12 footer">
+                <?php include("./pagina/footer.php"); ?>
             </div>
         </div>
 

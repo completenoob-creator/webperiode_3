@@ -9,7 +9,8 @@ if (isset($_GET["content"])){
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="./index.php?content=home">zwemmen</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -29,11 +30,9 @@ if (isset($_GET["content"])){
       <li class="nav-item <?php if ($active == "login") {echo "active";} ?>">
         <a class="nav-link" href="./index.php?content=login">login</a>
       </li>
-      <li class="nav-item <?php if ($active == "registratie") {echo "active";} ?>">
-        <a class="nav-link" href="./index.php?content=registratie">registratie</a>
-      </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
           Dropdown link
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -41,6 +40,14 @@ if (isset($_GET["content"])){
           <a class="dropdown-item" href="#">zie je records</a>
           <a class="dropdown-item" href="#">zie anderen records</a>
         </div>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item <?php if ($active == "registratie") {echo "active";} ?>">
+        <a class="nav-link" href="./index.php?content=registratie">registratie</a>
+      </li>
+      <li class="nav-item <?php if ($active == "login") {echo "active";} ?>">
+        <a class="nav-link" href="./index.php?content=login">login</a>
       </li>
     </ul>
   </div>
